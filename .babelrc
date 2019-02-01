@@ -2,6 +2,6 @@
   "presets": ["@babel/preset-react"],
   "plugins": [["emotion", {
     "cssPropOptimization": false,
-    "instances": ["./src/Styled.js", "KevinEmotion"]
+    "instances": ["./src/Styled.js", "./src/CustomEmotion.js"]
   }]]
 }
