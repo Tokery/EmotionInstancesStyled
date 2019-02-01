@@ -1,11 +1,4 @@
-import styled from 'styled-components';
-import createEmotion from 'create-emotion';
-import createEmotionStyled from 'create-emotion-styled'
-import React from 'react';
-
-
-const emotion = createEmotion();
-const customStyled = createEmotionStyled(emotion, React);
+import styled from './CustomEmotion';
 
 
 export const Title = styled.h1`
@@ -19,8 +12,9 @@ export const Wrapper = styled.section`
   background: papayawhip;
 `;
 
-export const specialDiv = customStyled.div`
+export const SpecialDiv = styled.div`
   background-color: hotpink;
   color: white;
+  padding: 4em;
 `;
 
